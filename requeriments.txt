@@ -1,18 +1,5 @@
-# Discord e extensões
-import discord
-from discord.ext import commands, tasks
-from discord import FFmpegPCMAudio
-import asyncio
-
-# YouTube / Música
-import yt_dlp
-from ytmusicapi import YTMusic
-import os
-
-# RPG / Jogos / Web requests
-import random
-import requests
-
-# Manipulação de imagens para perfil
-from PIL import Image, ImageDraw, ImageFont
-from io import BytesIO
+discord.py==2.3.2
+yt-dlp
+ytmusicapi
+requests
+Pillow
